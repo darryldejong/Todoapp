@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekplanner</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+  <div class="app-container">
+    <h1>Weekplanner</h1>
+    <div class="subtext">Plan je taken en training</div>
+    
+    <div class="week-planner">
+      <div class="day" data-day="Maandag" style="--color: #f87171">
+        <h2>🐯 Maandag</h2>
+        <div class="task-list"></div>
+        <button class="show-task-form">+ Taak toevoegen</button>
+        <div class="task-form hidden">
+          <input type="text" class="task-title" placeholder="Taaknaam..." required>
+          <input type="text" class="task-desc" placeholder="Omschrijving...">
+          <select class="task-repeat">
+            <option value="geen">Specifieke datum</option>
+            <option value="dagelijks">Dagelijks</option>
+            <option value="wekelijks">Wekelijks</option>
+            <option value="maandelijks">Maandelijks</option>
+          </select>
+          <input type="date" class="task-date" required>
+          <div class="task-buttons">
+            <button class="add-task">Opslaan</button>
+            <button class="cancel-task">Annuleren</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="day" data-day="Dinsdag" style="--color: #60a5fa">
+        <h2>🐰 Dinsdag</h2>
+        <div class="task-list"></div>
+        <button class="show-task-form">+ Taak toevoegen</button>
+        <div class="task-form hidden">
+          <input type="text" class="task-title" placeholder="Taaknaam..." required>
+          <input type="text" class="task-desc" placeholder="Omschrijving...">
+          <select class="task-repeat">
+            <option value="geen">Specifieke datum</option>
+            <option value="dagelijks">Dagelijks</option>
+            <option value="wekelijks">Wekelijks</option>
+            <option value="maandelijks">Maandelijks</option>
+          </select>
+          <input type="date" class="task-date" required>
+          <div class="task-buttons">
+            <button class="add-task">Opslaan</button>
+            <button class="cancel-task">Annuleren</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="day" data-day="Woensdag" style="--color: #34d399">
+        <h2>🦁 Woensdag</h2>
+        <div class="task-list"></div>
+        <button class="show-task-form">+ Taak toevoegen</button>
+        <div class="task-form hidden">
+          <input type="text" class="task-title" placeholder="Taaknaam..." required>
+          <input type="text" class="task-desc" placeholder="Omschrijving...">
+          <select class="task-repeat">
+            <option value="geen">Specifieke datum</option>
+            <option value="dagelijks">Dagelijks</option>
+            <option value="wekelijks">Wekelijks</option>
+            <option value="maandelijks">Maandelijks</option>
+          </select>
+          <input type="date" class="task-date" required>
+          <div class="task-buttons">
+            <button class="add-task">Opslaan</button>
+            <button class="cancel-task">Annuleren</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="day" data-day="Donderdag" style="--color: #fbbf24">
+        <h2>🐱 Donderdag</h2>
+        <div class="task-list"></div>
+        <button class="show-task-form">+ Taak toevoegen</button>
+        <div class="task-form hidden">
+          <input type="text" class="task-title" placeholder="Taaknaam..." required>
+          <input type="text" class="task-desc" placeholder="Omschrijving...">
+          <select class="task-repeat">
+            <option value="geen">Specifieke datum</option>
+            <option value="dagelijks">Dagelijks</option>
+            <option value="wekelijks">Wekelijks</option>
+            <option value="maandelijks">Maandelijks</option>
+          </select>
+          <input type="date" class="task-date" required>
+          <div class="task-buttons">
+            <button class="add-task">Opslaan</button>
+            <button class="cancel-task">Annuleren</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="day" data-day="Vrijdag" style="--color: #a78bfa">
+        <h2>🐶 Vrijdag</h2>
+        <div class="task-list"></div>
+        <button class="show-task-form">+ Taak toevoegen</button>
+        <div class="task-form hidden">
+          <input type="text" class="task-title" placeholder="Taaknaam..." required>
+          <input type="text" class="task-desc" placeholder="Omschrijving...">
+          <select class="task-repeat">
+            <option value="geen">Specifieke datum</option>
+            <option value="dagelijks">Dagelijks</option>
+            <option value="wekelijks">Wekelijks</option>
+            <option value="maandelijks">Maandelijks</option>
+          </select>
+          <input type="date" class="task-date" required>
+          <div class="task-buttons">
+            <button class="add-task">Opslaan</button>
+            <button class="cancel-task">Annuleren</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="day" data-day="Zaterdag" style="--color: #f472b6">
+        <h2>🐮 Zaterdag</h2>
+        <div class="task-list"></div>
+        <button class="show-task-form">+ Taak toevoegen</button>
+        <div class="task-form hidden">
+          <input type="text" class="task-title" placeholder="Taaknaam..." required>
+          <input type="text" class="task-desc" placeholder="Omschrijving...">
+          <select class="task-repeat">
+            <option value="geen">Specifieke datum</option>
+            <option value="dagelijks">Dagelijks</option>
+            <option value="wekelijks">Wekelijks</option>
+            <option value="maandelijks">Maandelijks</option>
+          </select>
+          <input type="date" class="task-date" required>
+          <div class="task-buttons">
+            <button class="add-task">Opslaan</button>
+            <button class="cancel-task">Annuleren</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="day" data-day="Zondag" style="--color: #a5b4fc">
+        <h2>🐻 Zondag</h2>
+        <div class="task-list"></div>
+        <button class="show-task-form">+ Taak toevoegen</button>
+        <div class="task-form hidden">
+          <input type="text" class="task-title" placeholder="Taaknaam..." required>
+          <input type="text" class="task-desc" placeholder="Omschrijving...">
+          <select class="task-repeat">
+            <option value="geen">Specifieke datum</option>
+            <option value="dagelijks">Dagelijks</option>
+            <option value="wekelijks">Wekelijks</option>
+            <option value="maandelijks">Maandelijks</option>
+          </select>
+          <input type="date" class="task-date" required>
+          <div class="task-buttons">
+            <button class="add-task">Opslaan</button>
+            <button class="cancel-task">Annuleren</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="health-card" id="stappenteller">
+        <h2>🚶‍♂️ Stappenteller</h2>
+        <div class="step-container">
+          <input type="number" min="0" max="10000" placeholder="Stappen vandaag" id="stepInput" class="step-input">
+          <button class="action-button step-button" id="stepButton" onclick="addSteps()">Stappen Toevoegen</button>
+          <p class="step-count">Totaal: <span id="totalSteps">0</span> / 10.000 stappen</p>
+          <div id="stepComplete" class="complete-message hidden">
+            <span>✅ Doel bereikt! Goed gedaan!</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="health-card" id="gymcheck">
+        <h2>🏋️ Gym Tracker</h2>
+        <div class="gym-container">
+          <div class="input-row">
+            <div class="input-group">
+              <label for="workoutDuration">Duur (min)</label>
+              <input type="number" min="1" max="300" placeholder="Minuten" id="workoutDuration" class="duration-input">
+            </div>
+            <div class="input-group">
+              <label for="workoutType">Trainingstype</label>
+              <select id="workoutType" class="gym-select">
+                <option value="">Kies type</option>
+                <option value="Armen">Armen</option>
+                <option value="Benen">Benen</option>
+                <option value="Borst">Borst</option>
+                <option value="Rug">Rug</option>
+                <option value="Buik">Buik</option>
+                <option value="Fullbody">Fullbody</option>
+                <option value="Cardio">Cardio</option>
+              </select>
+            </div>
+          </div>
+          <button class="action-button gym-button" onclick="addWorkout()">Training Opslaan</button>
+          <div class="workout-display">
+            <div class="workout-list" id="workoutList"></div>
+          </div>
+          <div class="stats-container">
+            <p>Deze week: <span id="gymWeekCount">0</span> keer getraind</p>
+            <p>Totaal minuten: <span id="gymWeekMinutes">0</span> min</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="health-card" id="boekcheck">
+        <h2>📖 Leesvoortgang</h2>
+        <div class="book-container">
+          <div class="input-group">
+            <label for="pagesRead">Gelezen pagina's</label>
+            <input type="number" min="1" max="1000" placeholder="Aantal pagina's" id="pagesRead" class="pages-input">
+          </div>
+          <button class="action-button book-button" onclick="addReading()">Voortgang Opslaan</button>
+          <div class="reading-display">
+            <div class="reading-list" id="readingList"></div>
+          </div>
+          <div class="stats-container">
+            <p>Deze week: <span id="bookWeekCount">0</span> keer gelezen</p>
+            <p>Totaal pagina's: <span id="bookWeekPages">0</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
